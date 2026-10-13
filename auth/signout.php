@@ -6,8 +6,8 @@ if(isset($_SESSION['user_id'])){
         $pdo,
         $_SESSION['user_id'],
         $_SESSION['user_email'],
-        'logout','
-        success'
+        'logout',
+        'success'
     );
 }
 
