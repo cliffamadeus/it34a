@@ -60,8 +60,7 @@ $activities = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <?php endforeach; ?>
         </tbody>
     </table>
+
+    
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.datatables.net/3.0.4/js/dataTables.min.js" ></script>
-<script src="https://cdn.datatables.net/3.0.4/js/dataTables.bootstrap5.min.js"></script>
 </html>
