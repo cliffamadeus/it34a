@@ -1,9 +1,4 @@
-<?php
-
-function redirect($path){
-    header("Location: " . BASE_URL . $path);
-    exit;
-}
+<?php 
 
 function loginUser($pdo,$login,$password){
     
@@ -53,11 +48,11 @@ function requireLogin(){
 function requireRole($role){
     requireLogin();
 
+    /*
     if($_SESSION['user_role' !== $role]){
         http_response_code(403);
         die('Access denied');
-    }
+    }*/
 }
-
 
 ?>
