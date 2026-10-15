@@ -28,8 +28,6 @@ $activities = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdn.datatables.net/3.0.4/css/dataTables.bootstrap5.min.css" />
 </head>
 <body>
     <h1>Welcome Admin</h1>
@@ -62,14 +60,7 @@ $activities = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <?php endforeach; ?>
         </tbody>
     </table>
+
+    
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.datatables.net/3.0.4/js/dataTables.min.js" ></script>
-<script src="https://cdn.datatables.net/3.0.4/js/dataTables.bootstrap5.min.js"></script>
-<script>
-    new DataTable('#example',{
-        scrollY: '400px',
-        autoWidth: false,
-    });
-</script>
 </html>
